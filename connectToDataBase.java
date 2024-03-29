@@ -28,7 +28,7 @@ public class connectToDataBase {
 
 
         try {
-            String csvFilePath = "/home/ishaq/Documents/belajar_java_1/advanced_java_hw/advancedjava_hw2_w12/data.csv";
+            String csvFilePath = "/Java-ETL-to-Postgres/data.csv";
             Scanner sc = new Scanner(new File(csvFilePath));
             BufferedReader lineReader = new BufferedReader(new FileReader(csvFilePath));
             String lineText = null;
